@@ -32,7 +32,6 @@
       <email>{id}@gmail.com</email>
     </developer>
   </developers>
-
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
@@ -44,7 +43,6 @@
     <maven.compiler.target>1.6</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -76,6 +74,31 @@
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>14.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.clearnlp</groupId>
+      <artifactId>clearnlp</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.clearnlp</groupId>
+      <artifactId>clearnlp-dictionary</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.clearnlp</groupId>
+      <artifactId>clearnlp-general-en-pos</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.clearnlp</groupId>
+      <artifactId>clearnlp-general-en-dep</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.clearnlp</groupId>
+      <artifactId>clearnlp-general-en-srl</artifactId>
+      <version>1.1</version>
     </dependency>
   </dependencies>
 
